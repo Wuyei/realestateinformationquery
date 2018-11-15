@@ -38,7 +38,7 @@
             <property name= "timeBetweenEvictionRunsMillis" value="60000"/>
             <property name= "numTestsPerEvictionRun" value="${maxActive}"/>
 	</bean>
-	<context:component-scan base-package="cn.bdqb.service"></context:component-scan>
+	<context:component-scan base-package="cn.bdqn.service"></context:component-scan>
 	<tx:annotation-driven/>
 	<!-- 集成mybatis -->
 	<bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
