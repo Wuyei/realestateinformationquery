@@ -3,10 +3,10 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>cfs</groupId>
-	<artifactId>cfs-parent</artifactId>
+	<groupId>cn.bdqn</groupId>
+	<artifactId>realestateinformationquery</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>pom</packaging>
+	<packaging>war</packaging>
 
 	<name>cfs-parent</name>
 	<url>http://maven.apache.org</url>
@@ -29,10 +29,6 @@
 		<aspectjweaver.version>1.8.10</aspectjweaver.version>
 	</properties>
 
-
-	<modules>
-		<module>../cfs-common</module>
-	</modules>
 	<dependencies>
 		<!-- Junit测试 -->
 		<dependency>
